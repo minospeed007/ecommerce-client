@@ -20,7 +20,7 @@ return(<>
                 </Typography></div>
                 </div>
     <div className='foot-link'>
-    <Link className='foot' to='/cart'>Cart</Link>
+    <Link className='foot' to='/search'>Search</Link>
     </div>
     <div className='foot-link'>
 

@@ -31,7 +31,7 @@ const searchUser= async ()=>{
       },[])
       console.log(results)
       const filteredResult = results?.data?.filter((item) =>
-    item?.firstName?.toLowerCase()?.includes(searchTerm?.toLowerCase())
+    item?.FirstName?.toLowerCase()?.includes(searchTerm?.toLowerCase())
   );
   
 
@@ -63,12 +63,12 @@ return (
       <tbody>
         {filteredResult?.map((result)=>(
             <tr  key={result.id}>
-            <td className='search_p'>{result.firstName}</td>
-            <td className='search_p'>{result.lastName}</td>
+            <td className='search_p'>{result.FirstName}</td>
+            <td className='search_p'>{result.LastName}</td>
 
             <td className='search_p'>{result.phone_number}</td>
             <td className='search_p'>{result.amount}</td>
-            <td className='search_p'>{result.transaction_type}</td>
+            <td className='search_p'>{result.Transaction_type}</td>
 
             <td className='search_p'> 
          {moment(result.RecordDate).format('DD/MM/YYYY ')}

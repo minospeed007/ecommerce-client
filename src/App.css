@@ -528,9 +528,9 @@ background-color: rgb(24, 22, 22);
  }
  .foot{
     text-decoration: none;
-    color:black;
+    color:white;
     font-size:12px;
-    cursor:point;
+    cursor:pointer;
  }
  
  .mo-footer{
@@ -611,7 +611,6 @@ margin-right: 3rem;
     justify-content: space-evenly;
     width:200px;
     align-items: center;
-    background-color:white;
     margin-bottom: 2rem;
 }
 .p-div{
@@ -672,7 +671,9 @@ width:100vw;
     transition: all 0.3s ease-in-out;
   }
   
-  
+  .foot-icon{
+    background-color: grey;
+  }
   
   
   
